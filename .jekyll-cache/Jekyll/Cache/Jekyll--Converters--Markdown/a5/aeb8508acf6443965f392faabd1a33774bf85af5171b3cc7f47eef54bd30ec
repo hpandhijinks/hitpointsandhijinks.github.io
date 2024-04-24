@@ -1,0 +1,5 @@
+I"<p>The name Atom applies to a pair of related Web standards. The Atom Syndication Format is an XML language used for web feeds, while the Atom Publishing Protocol (AtomPub or APP) is a simple HTTP-based protocol for creating and updating web resources.</p>
+
+<p>Web feeds allow software programs to check for updates published on a website. To provide a web feed, the site owner may use specialized software (such as a content management system) that publishes a list (or “feed”) of recent articles or content in a standardized, machine-readable format. The feed can then be downloaded by programs that use it, like websites that syndicate content from the feed, or by feed reader programs that allow internet users to subscribe to feeds and view their content.</p>
+
+:ET

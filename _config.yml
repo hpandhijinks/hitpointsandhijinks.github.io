@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hit Points and Hijinks
+email: contact@hitpointsandhijinks.quest
+description: > # this means to ignore newlines until "baseurl:"
+  Hit Points and Hijinks Podcast
+baseurl: ""
+url: "http://192.168.1.88:4000"
+twitter_username: myname
+github_username:  hpandhijinks
+permalink: /:title.html
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - docker-compose.yml
