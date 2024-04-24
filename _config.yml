@@ -11,7 +11,7 @@ email: contact@hitpointsandhijinks.quest
 description: > # this means to ignore newlines until "baseurl:"
   Hit Points and Hijinks Podcast
 baseurl: ""
-url: "http://192.168.1.88:4000"
+url: "https://hitpointsandhijinks.github.io"
 twitter_username: myname
 github_username:  hpandhijinks
 permalink: /:title.html
