@@ -12,11 +12,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Hit Points and Hijinks Podcast
 baseurl: ""
 url: "https://hpandhijinks.github.io"
-twitter_username: myname
 github_username:  hpandhijinks
 permalink: /:title.html
 excerpt_separator: <!--more-->
-lang: en
+lang: "en"
+author: "Hit Points and Hijinks"
 
 # Build settings
 markdown: kramdown

@@ -21,7 +21,7 @@
 	</itunes:owner>
         <itunes:image href="{{ site.url }}{{ site.baseurl }}/img/Dragon-Black-on-Grey.jpg" />
 
-	<itunes:category text="Leasure" >	
+	<itunes:category text="Leisure" >	
           <itunes:category text="Games" />
         </itunes:category>
         <itunes:explicit>no</itunes:explicit>
@@ -41,7 +41,7 @@
             <description>{{ post.summary | xml_escape }} {{ post.description | xml_escape }} Show Notes Available at {{ site.url }}{{ site.baseurl }}{{ post.url }}.</description>
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
-		</item>
+	</item>
 {% endfor %}
 	</channel>
 </rss>
