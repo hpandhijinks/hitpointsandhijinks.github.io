@@ -16,6 +16,7 @@ twitter_username: myname
 github_username:  hpandhijinks
 permalink: /:title.html
 excerpt_separator: <!--more-->
+lang: en
 
 # Build settings
 markdown: kramdown

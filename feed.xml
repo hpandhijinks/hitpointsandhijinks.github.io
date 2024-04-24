@@ -5,24 +5,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
     <channel>
-		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>{{ site.title }}</title>
-		<link>{{ site.url }}{{ site.baseurl }}</link>
-		<language>{{ site.lang }}</language>
+	<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+	<title>{{ site.title }}</title>
+	<link>{{ site.url }}{{ site.baseurl }}</link>
+	<language>{{ site.lang }}</language>
         <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
-		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+	<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
         <itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+	<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
         <description>{{ site.description | xml_escape }}</description>
-		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
+	<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
         <itunes:owner>
-			<itunes:name>{{ site.author }}</itunes:name>
-			<itunes:email>{{ site.email }}</itunes:email>
-		</itunes:owner>
-        <itunes:image href="{{ site.url }}{{ site.baseurl }}/img/logo.png" />
-		<itunes:category text="Technology" />	
-        <itunes:category text="Education">
-            <itunes:category text="Educational" />
+		<itunes:name>{{ site.author }}</itunes:name>
+		<itunes:email>{{ site.email }}</itunes:email>
+	</itunes:owner>
+        <itunes:image href="{{ site.url }}{{ site.baseurl }}/img/Dragon-Black-on-Grey.jpg" />
+
+	<itunes:category text="Leasure" >	
+          <itunes:category text="Games" />
         </itunes:category>
         <itunes:explicit>no</itunes:explicit>
 
