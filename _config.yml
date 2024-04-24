@@ -10,8 +10,8 @@ title: Hit Points and Hijinks
 email: contact@hitpointsandhijinks.quest
 description: > # this means to ignore newlines until "baseurl:"
   Hit Points and Hijinks Podcast
-baseurl: ""
-url: "https://hitpointsandhijinks.github.io"
+baseurl: "hpandhijinks.github.io"
+url: "https://hpandhijinks.github.io"
 twitter_username: myname
 github_username:  hpandhijinks
 permalink: /:title.html
