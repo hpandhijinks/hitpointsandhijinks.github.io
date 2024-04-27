@@ -19,7 +19,7 @@
 		<itunes:name>{{ site.author }}</itunes:name>
 		<itunes:email>{{ site.email }}</itunes:email>
 	</itunes:owner>
-        <itunes:image href="{{ site.url }}{{ site.baseurl }}/img/Dragon-head-in-profile.png" />
+        <itunes:image href="{{ site.url }}{{ site.baseurl }}/img/Dragon-Black-on-Grey-Expanded.jpg" />
 
 	<itunes:category text="Leisure" >	
           <itunes:category text="Games" />
