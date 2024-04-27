@@ -17,7 +17,8 @@ header {
 header a {
     text-decoration: none;
     color: $header-color;
-    text-shadow: 0.1em 0.1em 1em $drop-shadow;    
+    //text-shadow: 0.1em 0.1em 1em $drop-shadow;    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 header a:hover {
