@@ -13,8 +13,12 @@ layout: default
         </h2>
         <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
         <p>{{ first_post.excerpt }} </p>
-        <div><img class="small-scaled" src="{{ site.url }}{{ site.baseurl }}{{ first_post.thumbnail }}"></div>
-        </div>
+        <div>
+	  <a href="{{ post.url | prepend: site.baseurl }}">
+	    <img class="small-scaled" src="{{ site.url }}{{ site.baseurl }}{{ first_post.thumbnail }}">
+	  </a>
+	</div>
+    </div>
 
     {% for post in site.posts offset:1 %}
         <div class="cards">
@@ -23,7 +27,11 @@ layout: default
         </h2>
         <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <p>{{ post.excerpt }} </p>
-        <div><img class="small-scaled" src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}"></div>
+        <div>
+	  <a href="{{ post.url | prepend: site.baseurl }}">
+	    <img class="small-scaled" src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}">
+	  </a>
+	</div>
 
         </div>
     {% endfor %}
