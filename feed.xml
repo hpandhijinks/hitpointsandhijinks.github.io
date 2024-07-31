@@ -51,7 +51,7 @@
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
 	    <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-	    <podcast:transcript url={{ site.url }}{{ site.baseurl }}{{ post.url}} type="text/html" />
+	    <podcast:transcript url="{{ site.url }}{{ site.baseurl }}{{ post.url}}" type="text/html" />
 	    <itunes:episode>{{ post.episode }}</itunes:episode>
 
 	</item>
