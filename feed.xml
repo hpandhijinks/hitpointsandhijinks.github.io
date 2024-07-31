@@ -32,7 +32,7 @@
         </itunes:category>
 	<itunes:type>episodic</itunes:type>
         <itunes:explicit>false</itunes:explicit>
-	<podcast:locked owner={{ site.email }}>true</podcast:locked>
+	<podcast:locked owner="{{ site.email }}">true</podcast:locked>
 	<podcast:guid>553b7026-f616-5aaf-afd1-9b4f013e0cb2</podcast:guid>
 
 {% for post in site.posts %}
