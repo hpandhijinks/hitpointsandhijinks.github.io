@@ -6,6 +6,7 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 	xmlns:podcast="https://podcastindex.org/namespace/1.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xml:lang="{{ site.lang }}"
 >
 
@@ -29,7 +30,10 @@
 	<itunes:category text="Leisure" >	
           <itunes:category text="Games" />
         </itunes:category>
+	<itunes:type>episodic</itunes:type>
         <itunes:explicit>false</itunes:explicit>
+	<podcast:locked owner={{ site.email }}>true</podcast:locked>
+	<podcast:guid>553b7026-f616-5aaf-afd1-9b4f013e0cb2</podcast:guid>
 
 {% for post in site.posts %}
         <item>
@@ -46,6 +50,10 @@
             <description>{{ post.summary | xml_escape }} {{ post.description | xml_escape }} Show Notes Available at {{ site.url }}{{ site.baseurl }}{{ post.url }}.</description>
             <itunes:keywords>{{ post.keywords }}</itunes:keywords>
             <itunes:block>{{ post.block }}</itunes:block>
+	    <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+	    <podcast:transcript url={{ site.url }}{{ site.baseurl }}{{ post.url}} type="text/html" />
+	    <itunes:episode>{{ post.episode }}</itunes:episode>
+
 	</item>
 {% endfor %}
 	</channel>
